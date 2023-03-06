@@ -1,0 +1,167 @@
+
+
+.header__news{
+    .container{
+        padding: 0 262px;
+        .news__inner{
+            h3{
+                font-size: 18px;
+            }
+            h4{
+                font-size: 50px;
+                margin-top: 0;
+            }
+            ul{
+                list-style-type: none;
+                padding-left: 0;
+                width: 1400px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                li{
+                    width: 685px;
+                    position: relative;
+                    height: 331px;
+                    &::after{
+                        content: '12.01.2023';
+                        color: #fff;
+                        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        padding: 10px;
+                    }
+                    img{
+                        width: 685px;
+                        height: 209px;
+                        object-fit: cover;
+                    }
+                    h4{
+                        font-size: 20px;
+                        margin-top: -50px;
+                        margin-left: 20px;
+                        color: #fff;
+                        line-height: 24px;
+                    }
+                    p{
+                        width: 617px;
+                        color: #031412;
+                        margin-top: 30px;
+                        margin-bottom: 0;
+                        line-height: 18px;
+                    }
+                    h6{
+                        font-size: 14px;
+                        margin-top: 20px;
+                        cursor: pointer;
+                        a{
+                            text-decoration: none;
+                            color: #5E3928;
+                        }
+                    }
+                }
+            }
+        }
+        .pages{
+            text-align: center;
+            margin: 0 auto;
+            width: 500px;
+            .page__ul{
+                list-style-type: none;
+                display: flex;
+                padding-left: 0;
+                align-items: center;
+                text-align: center;
+                li{
+                    margin: 10px;
+                    padding: 20px;
+                }
+                img{
+                    width: 51px;
+                    height: 65px;
+                    margin-top: 2px;
+                    &:active{
+                        color: #fff;
+                        background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                    }
+                }
+                .next{
+                    transform: rotate(180deg);
+                }
+                ul{
+                    list-style-type: none;
+                    display: flex;
+                    padding-left: 0;
+                    li{
+                        border: 1px solid #EBEBEB;
+                        cursor: pointer;
+                    }
+                }
+                .active{
+                    color: #fff;
+                    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .header__news{
+        .container{
+            width: 100%;
+            padding: 20px;  
+            .news__inner{
+                h3{
+                    font-size: 14px;
+                    margin: 0;
+                }
+                h4{
+                    font-size: 24px;
+                }
+                ul{
+                    width: 100%;
+                    li{
+                        width: 100%;
+                        height: auto;
+                        img{
+                            width: 100%;
+                            height: auto;
+                        }
+                        h4{
+                            font-size: 14px;
+                        }
+                        p{
+                            font-size: 14px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .pages{
+                width: 100%;
+                .page__ul{
+                    padding-left: 0;
+                    li{
+                        margin: 5px;
+                        width: 16.5%;
+                        padding: 0;
+                    }
+                    ul{
+                        width: 61%;
+                        li{
+                            width: 40px;
+                            text-align: center;
+                            padding-top: 15px;
+                            height: 60px;
+                        }
+                    }
+                    .next{
+
+                    }
+                }
+            }
+        }
+    }
+}

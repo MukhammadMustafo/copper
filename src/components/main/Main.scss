@@ -1,0 +1,113 @@
+
+
+.main__footer__down{
+    text-align: center;
+    background-image: url(../image/main__bg.png);
+    background-size: 100%;
+    background-position: 100%;
+    width: 100%;
+    .container{
+        padding: 0 202px;
+    }
+    h2{
+        font-size: 50px;
+        padding-top: 50px;
+    }
+    .down__list{
+        display: flex;
+        flex-wrap: wrap;
+        height: 726px;
+        text-align: start;
+        div{
+            width: 308px;
+            height: 225px;
+            margin: 29px;
+            h6{
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 14px;
+            }
+            span{
+                color: #72664B;
+                background: linear-gradient(92.09deg, #5E3928 -79.4%, #E4A16F 84.12%);
+                cursor: pointer;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+            }
+        }
+        .down__item2{
+            position: relative;
+            &::before{
+                content: url(../image/main2.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item3{
+            position: relative;
+            &::before{
+                content: url(../image/main333.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item4{
+            position: relative;
+            &::before{
+                content: url(../image/main444.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item5{
+            position: relative;
+            &::before{
+                content: url(../image/main555.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item6{
+            position: relative;
+            &::before{
+                content: url(../image/main666.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item7{
+            position: relative;
+            &::before{
+                content: url(../image/main777.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+        .down__item8{
+            position: relative;
+            &::before{
+                content: url(../image/main888.png);
+                position: absolute;
+                top: 15px;
+                object-fit: cover;
+                left: 18px;
+            }
+        }
+    }
+}

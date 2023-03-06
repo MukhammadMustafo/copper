@@ -1,0 +1,507 @@
+
+
+.header__about{
+    background-color: #e5e5e5;
+    width: 100%;
+    height: 760px;
+    background-image: url(../../image/bg__fon.png);
+    .about__inner{
+        padding: 0 262px;
+        display: flex;
+        justify-content: space-between;
+        .about__inner__text{
+            width: 590px;
+            h3{
+                margin-top: 0;
+                padding-top: 60px;
+            }
+            h2{
+                font-size: 100px;
+                margin-top: 80px;
+                margin-bottom: 50px;
+            }
+            hr{
+                background-color: #031412;
+                padding: 1px;
+                border: none;
+                margin-bottom: 50px;
+            }
+            h4{
+                font-size: 50px;
+                background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                padding-left: 86px;
+                position: relative;
+                margin-bottom: 50px;
+                &::before{
+                    content: url(../../image/qoshtirnoq.png);
+                    left: 20px;
+                    position: absolute;
+                }
+                &::after{
+                    content: url(../../image/qoshtirnoq.png);
+                    right: -25px;
+                    bottom: 0;
+                    position: absolute;
+                }
+            }
+            span{
+                display: flex;
+                justify-content: space-between;
+                width: 400px;
+                h5{
+                    font-size: 30px;
+                    line-height: 28px;
+                    margin-top: 20px;
+                    background: linear-gradient(92.18deg, #5E3928 20.13%, #E4A16F 92.93%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    background-clip: text;
+                    text-fill-color: transparent;
+                }
+                img{
+                    object-fit: cover;
+                    width: 188px;
+                    height: 91px;
+                    margin: 0;
+                    padding: 0;
+                }
+
+            }
+        }
+        img{
+            margin-top: 60px;
+            margin-left: 68px;
+            object-fit: cover;
+            width: 612px;
+            height: 600px;
+        }
+    }
+}
+
+.main__about{
+    .container{
+        padding: 0 262px;
+        margin: 50px auto;
+        .main__about__inner{
+            display: flex;
+            .about__inner__left{
+                width: 517px;
+                h3{
+                    color: #031412;
+                    font-size: 50px;
+                    line-height: 32px;
+                    margin-bottom: 40px;
+                }
+                p{
+                    width: 517px;
+                    font-size: 20px;
+                }
+            }
+            .about__inner__right{
+                margin-left: 182px;
+                h2{
+                    background: linear-gradient(92deg, #5E3928 20%, #E4A16F 92%);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    font-size: 50px;
+                    margin-bottom: 0;
+                }
+                h5{
+                    font-size: 250px;
+                    width: 707px;
+                    margin: 0;
+                    padding: 0;
+                    margin-top: -40px;
+                    background: url(../../image/nature.png);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+
+    .about__history{
+        width: 100%;
+        color: #fff;
+        height: 632px;
+        background-repeat: repeat;
+        background: url(../../image/choy2__fon.png);
+        
+        .history__inner{
+            background: url(../../image/choy__fon.png);
+            background-size: 100%;
+            height: 626px;
+            position: relative;
+            h2{
+                width: 762px;
+                font-size: 155px;
+                transform: rotate(-90deg);
+                position: absolute;
+                bottom: 50px;
+                margin-left: -200px;
+            }
+            &::before{
+                content: url(../../image/ellips.png);
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            &::after{
+                content: url(../../image/ellips.png);
+                position: absolute;
+                rotate: 90deg;
+                top: 0;
+                right: 0;
+            }
+            .container{
+                text-align: center;
+                position: relative;
+                &::before{
+                    content: url(../../image/ellips3.png);
+                    position: absolute;
+                    right: 0;
+                }
+                &::after{
+                    content: url(../../image/ellips3.png);
+                    position: absolute;
+                    left: 0;
+                    rotate: 180deg;
+                    top: 0;
+                }
+                div{
+                    position: relative;
+                    &::before{
+                        content: url(../../image/ellips4.png);
+                        bottom: -100px;
+                        left: 120px;
+                        position: absolute;
+                    }
+                    div{
+                        h3{
+                            padding-top: 50px;
+                            font-size: 50px;
+                        }
+                        span{
+                            display: flex;
+                            width: 920px;
+                            margin: 0 auto;
+                            p{
+                                text-align: start;
+                                width: 445px;
+                                margin: 0;
+                                font-size: 16px;
+                                line-height: 21.18px;
+                            }
+                            b{
+                                text-align: start;
+                                width: 445px;
+                                margin-left: 30px;
+                                font-size: 16px;
+                                line-height: 21.18px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+.about__geogrofy{
+    background: url(../../image/bg__fon.png);
+    background-size: 100%;
+    width: 100%;
+    height: 632px;
+    .container{
+        padding: 0 262px;
+        display: flex;
+        align-items: center;
+        .geografy__inner{
+            color: #031412;
+            h2{
+                margin-top: 0;
+                font-size: 50px;
+                line-height: 34px;
+                padding: 0;
+            }
+            p{
+                width: 365px;
+                font-size: 20px;
+                line-height: 24.98px;
+            }
+        }
+        img{
+            object-fit: cover;
+            width: 1071px;
+            height: 601px;
+        }
+    }
+}
+
+.about__daraxt{
+    .container{
+        padding: 0 262px;
+        margin: 50px auto;
+        .daraxt__inner{
+            display: flex;
+            img{
+                width: 682px;
+                height: 622px;
+                object-fit: cover;
+            }
+            .daraxt__right{
+                margin-left: 30px;
+                h2{
+                    font-size: 50px;
+                    line-height: 34px;
+                    color: #031412;
+                }
+                p{
+                    width: 485px;
+                    color: #031412;
+                    line-height: 25px;
+                }
+                div{
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 60px;
+                    img{
+                        height: 60px;
+                        width: 60px;
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__about{
+        height: 800px;
+        background-image: url(../../image/Bijir.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: -27vh;
+        .container{
+            width: 100%;
+            padding: 20px;
+            .about__inner{
+                padding: 0;
+                .about__inner__text{
+                    margin-top: 27vh;
+                    width: 100%;
+                    h3{
+                        padding-top: 0;
+                        font-size: 14px;
+                    }
+                    h2{
+                        font-size: 40px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                    hr{
+                        width: 60%;
+                        margin-left: 0;
+                    }
+                    h4{
+                        font-size: 20px;
+                        &::before{
+                            top: -20px;
+                        }
+                        &::after{
+                            bottom: -30px;
+                            right: 0;
+                        }
+                    }
+                    span{
+                        width: 100%;
+                        h5{
+                            font-size: 20px;
+                            line-height: 21px;
+                            margin-right: 20%;
+                        }
+                        img{
+                            width: 136px;
+                            height: 60px;
+                            display: block;
+                        }
+                    }
+                }
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .main__about{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            padding: 20px;
+            margin-top: 0;
+            margin-bottom: 0;
+            .main__about__inner{
+                padding: 0;
+                width: 100%;
+                display: block;
+                .about__inner__left{
+                    width: 100%;
+                    color: #031412;
+                    h3{
+                        font-size: 20px;
+                        text-align: center;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                }
+                .about__inner__right{
+                    width: 100%;
+                    padding-left: 0;
+                    margin-left: 0;
+                    h2{
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                    h5{
+                        font-size: 100px;
+                        width: 100%;
+                        margin-top: 0;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .about__history{
+            width: 100%;
+            height: auto;
+            background: #000000;
+            .history__inner{
+                width: 100%;
+                background: none;
+                height: auto;
+                h2{
+                    display: none;
+                }
+                &::after{
+                    content: none;
+                }
+                &::before{
+                    content: none;
+                }
+                .container{
+                    &::after{
+                        content: none;
+                    }
+                    &::before{
+                        content: none;
+                    }
+                    div{
+                        &::after{
+                            content: none;
+                        }
+                        &::before{
+                            content: none;
+                        }
+                        div{
+                            &::after{
+                                content: none;
+                            }
+                            &::before{
+                                content: none;
+                            }
+                            h3{
+                                font-size: 30px;
+                                padding-top: 10px;
+                            }
+                            span{
+                                width: 100%;
+                                display: block;
+                                p{
+                                    width: 100%;
+                                }
+                                text-align: start;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .about__geogrofy{
+        width: 100%;
+        height: auto;
+        .container{
+            width: 100%;
+            padding: 20px;
+            overflow: hidden;
+            display: block;
+            .geografy__inner{
+                h2{
+                    font-size: 30px;
+                    text-align: center;
+                }
+                p{
+                    width: 100%;
+                    font-size: 14px;
+                    line-height: 18px;
+                    text-align: center;
+                }
+            }
+            img{
+                width: 100%;
+                // margin-left: -60vh;
+            }
+        }
+    }
+
+    .about__daraxt{
+        width: 100%;
+        .container{
+            width: 100%;
+            padding: 20px;
+            .daraxt__inner{
+                width: 100%;
+                display: block;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .daraxt__right{
+                    text-align: center;
+                    h2{
+                        width: 100%;
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                    p{
+                        width: 100%;
+                        font-size: 14px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+                    div{
+                        margin-bottom: 10px;
+                        img{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
